@@ -1,5 +1,5 @@
-using CrazyBunnies.Models;
-namespace CrazyBunnies.Components.Sections;
+using crazybunnies.Models;
+namespace crazybunnies.Components.Sections;
 public partial class Reviews
 {
     record Quote(string Text, string Who, string When);

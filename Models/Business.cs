@@ -1,4 +1,4 @@
-namespace CrazyBunnies.Models;
+namespace crazybunnies.Models;
 public static class Business
 {
     public const string Name = "Crazy Bunnies";
