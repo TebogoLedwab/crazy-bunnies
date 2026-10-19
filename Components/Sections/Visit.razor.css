@@ -1,0 +1,6 @@
+.visit{background:#fff4ec;color:#2b1030;padding-top:6rem}
+::deep .cols{display:grid;gap:3rem;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));padding:0 1.25rem 5rem}
+h2{font-family:'Fraunces',serif;font-size:2rem;margin:0 0 .75rem}.big{font-size:1.3rem;margin:0}.small{opacity:.7}
+a{color:#c2185b;font-weight:600}
+footer{background:#2b1030;color:#fff4ec;display:flex;flex-wrap:wrap;gap:1rem 2rem;justify-content:space-between;padding:2rem 1.25rem}
+footer a{color:#ff4f9a}

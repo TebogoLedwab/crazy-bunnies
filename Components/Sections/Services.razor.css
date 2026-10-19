@@ -1,0 +1,7 @@
+.services{background:#2b1030;color:#fff4ec;padding:6rem 1.25rem}
+h2{font-family:'Fraunces',serif;font-size:clamp(1.8rem,5vw,3rem);text-align:center;margin:0 0 2.5rem}
+.grid{display:grid;gap:1.25rem;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+article{border:1px solid #ff4f9a55;border-radius:1.5rem;padding:2rem;transition:transform .3s,background .3s}
+article:hover{transform:translateY(-6px);background:#ff4f9a22}
+article span{font-size:2rem;color:#ff4f9a}h3{font-family:'Fraunces',serif;margin:.5rem 0}p{margin:0;opacity:.85}
+@media (prefers-reduced-motion:reduce){article{transition:none}}

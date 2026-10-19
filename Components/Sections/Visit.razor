@@ -1,0 +1,19 @@
+<section class="visit" id="visit">
+    <MudContainer MaxWidth="MaxWidth.Large" Class="cols">
+        <div>
+            <h2>Hours</h2>
+            <p class="big">Open today · Closes 6 pm</p>
+            <p class="small">Please call to confirm hours for other days.</p>
+        </div>
+        <div>
+            <h2>Find us</h2>
+            <p class="big"><a href="@Business.Directions" target="_blank" rel="noopener">@Business.Address</a></p>
+            <p class="small">Tap the address for Google Maps directions.</p>
+        </div>
+    </MudContainer>
+    <footer>
+        <strong>@Business.Name</strong>
+        <a href="@Business.PhoneHref">@Business.Phone</a>
+        <span>© @DateTime.Now.Year @Business.Name</span>
+    </footer>
+</section>

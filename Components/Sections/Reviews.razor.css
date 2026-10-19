@@ -1,0 +1,5 @@
+.reviews{background:#ffb27a;color:#2b1030;padding:6rem 1.25rem}
+h2{font-family:'Fraunces',serif;font-size:clamp(1.8rem,5vw,3rem);text-align:center;margin:0 0 2.5rem}
+.row{display:grid;gap:1.5rem;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+blockquote{margin:0;background:#fff4ec;border-radius:1.5rem;padding:2rem;box-shadow:0 12px 30px #2b103022}
+p{font-family:'Fraunces',serif;font-size:1.2rem;line-height:1.5;margin:0 0 1rem}cite{font-style:normal;font-weight:600;color:#c2185b}

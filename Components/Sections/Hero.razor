@@ -1,0 +1,18 @@
+<header class="hero" id="top">
+    <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="media/hero-poster.jpg" aria-hidden="true">
+        <source src="media/hero-1080p.mp4" type="video/mp4" />
+    </video>
+    <div class="hero-shade"></div>
+    <svg class="layer l1" data-depth="0.12" viewBox="0 0 200 200" aria-hidden="true"><path d="M60 190C30 120 40 30 80 10c30 30 20 110-20 180Z" /></svg>
+    <svg class="layer l2" data-depth="0.28" viewBox="0 0 200 200" aria-hidden="true"><path d="M120 190c-30-70-20-160 20-180 30 30 20 110-20 180Z" /></svg>
+    <MudContainer MaxWidth="MaxWidth.Large" Class="hero-copy" data-depth="-0.08">
+        <p class="eyebrow">Hair salon · Centurion</p>
+        <h1>@Business.Name</h1>
+        <p class="lead">Braids, haircuts and hairstyles, done with care at Celtis Ridge.</p>
+        <p class="rating">★ @Business.Rating <span>from @Business.ReviewCount Google reviews</span></p>
+        <div class="cta">
+            <MudButton Href="@Business.PhoneHref" Class="btn primary" Variant="Variant.Filled">Call @Business.Phone</MudButton>
+            <MudButton Href="@Business.Directions" Target="_blank" Class="btn ghost" Variant="Variant.Outlined">Get directions</MudButton>
+        </div>
+    </MudContainer>
+</header>

@@ -1,0 +1,11 @@
+<section class="services" id="services">
+    <MudContainer MaxWidth="MaxWidth.Large">
+        <h2>What we do</h2>
+        <div class="grid">
+            @foreach (var s in Items)
+            {
+                <article><span>@s.Icon</span><h3>@s.Title</h3><p>@s.Text</p></article>
+            }
+        </div>
+    </MudContainer>
+</section>

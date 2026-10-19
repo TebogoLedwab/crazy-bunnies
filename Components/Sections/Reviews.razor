@@ -1,0 +1,11 @@
+<section class="reviews" id="reviews">
+    <MudContainer MaxWidth="MaxWidth.Large">
+        <h2>★ @Business.Rating on Google</h2>
+        <div class="row">
+            @foreach (var r in Quotes)
+            {
+                <blockquote><p>“@r.Text”</p><cite>@r.Who · @r.When</cite></blockquote>
+            }
+        </div>
+    </MudContainer>
+</section>
