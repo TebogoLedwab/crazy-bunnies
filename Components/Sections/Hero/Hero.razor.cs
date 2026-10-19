@@ -1,3 +1,3 @@
 using crazybunnies.Models;
-namespace crazybunnies.Components.Sections;
+namespace crazybunnies.Components.Sections.Hero;
 public partial class Hero { }

@@ -1,4 +1,4 @@
-namespace crazybunnies.Components.Sections;
+namespace crazybunnies.Components.Sections.Services;
 public partial class Services
 {
     record Item(string Icon, string Title, string Text);
